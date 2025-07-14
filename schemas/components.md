@@ -2,7 +2,7 @@
 
 ## 1. What is This Section For?
 
-This section explains the **hardware wiring** in the WRO 2025 Future Engineers self-driving car project. The car is designed to detect surroundings, make decisions based on visual and distance data, and control its motion accordingly using various electronic modules.
+This section explains the **hardware wiring** and showing main **components** in the WRO 2025 Future Engineers self-driving car project. The car is designed to detect surroundings, make decisions based on visual and distance data, and control its motion accordingly using various electronic modules.
 
 ## 2. Main Components
 
