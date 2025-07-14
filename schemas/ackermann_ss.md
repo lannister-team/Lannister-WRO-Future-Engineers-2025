@@ -4,16 +4,7 @@
 
 The Ackermann steering geometry is a design principle used to allow the front wheels of a vehicle to follow different turning radii during a turn, this is crucial because the inner wheel must turn more sharply than the outer wheel, so that both wheels point toward a shared center of rotation, this reduces tire slippage and improves control, especially during tight maneuvers.
 
-## Visual Explanation
-
-Here’s a simplified visual to understand how Ackermann steering works:
-
-![Ackermann Steering Diagram](../media/Ackermann_photo.svg)
-
-And here’s an animation showing the linkage in motion:
-
-![Ackermann Linkage Animation](../media/ackerman_animation.gif)
-
+<img src="../media/Ackermann_photo.svg" alt="Ackermann Steering Diagram" width="400"/>
 
 ## Why We Use It in Our Car
 
@@ -23,6 +14,8 @@ In our WRO 2025 self-driving car, we implemented an Ackermann style steering sys
 - Smoother during autonomous path following
 
 Our system is actuated by a single servo motor, mounted at the bottom of the chassis. The servo is connected to a mechanical linkage that distributes the turning angles to the two front wheels, based on the Ackermann principle.
+
+<img src="../media/ackerman_animation.gif" alt="Ackermann Linkage Animation" width="400"/>
 
 ## Geometry and Math Behind It
 
