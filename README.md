@@ -24,7 +24,7 @@ This repository contains all materials related to our engineering vehicle projec
   - An **official team photo**.
   - A **funny photo** with all team members.
 
-### `v-photos/`
+### `v-photos`
 - Contains **6 photos of the vehicle**:
   - Captured from **every side**, as well as from the **top and bottom**.
 
