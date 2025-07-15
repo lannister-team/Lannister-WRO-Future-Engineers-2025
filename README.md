@@ -3,7 +3,7 @@
 <p align="center"><strong>WRO 2025 Local Final: Future Engineers</strong></p>
 
 <p align="center">
-  <img src="media/Team_Logo.png" alt="Lannister Team Logo" width="300"/>
+  <img src="media/Logo_Team.png" alt="Lannister Team Logo" width="300"/>
 </p>
 
 <p align="center">
