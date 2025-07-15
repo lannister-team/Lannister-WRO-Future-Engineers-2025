@@ -177,5 +177,41 @@ Connections are managed via standard Arduino input/output pins, with careful wir
   
   Separation of motor and logic power ensures **stable performance**, reduces noise, and protects against voltage dips during motor stall.
 
+### 💻 Coding Environments
+
+The robot's software is developed using two main programming environments: **Arduino IDE (C++)** and **Python**. Each environment is responsible for different layers of control, from low-level motor actuation to high-level vision processing.
+
+---
+
+
+#### 🔧 Arduino IDE (C++)
+
+The **Arduino Integrated Development Environment (IDE)** is a cross-platform application (available for Windows, macOS, and Linux) used to program Arduino-compatible boards. Written in Java, the IDE supports both C and C++ languages with simplified structure requirements.
+
+Key features:
+- Provides built-in libraries for common I/O operations (based on the Wiring framework).
+- Requires only two user-defined functions: `setup()` for initialization and `loop()` for continuous execution.
+- Uses the GNU toolchain to compile code, and **AVRDUDE** to upload the hex-encoded binary to the board.
+
+**Role in the project:**
+- The Arduino IDE is used to program the **Arduino Uno**, which directly controls:
+  - Rear-wheel drive motion
+  - Steering through the servo motor
+- These actions are performed based on movement commands received from the Raspberry Pi (e.g., left/right turns or forward/backward motion).
+
+---
+
+#### 🐍 Python
+
+**Python** is a high-level, interpreted programming language known for its readability and flexibility. It supports multiple programming paradigms (object-oriented, imperative, and limited functional) and is widely used in modern applications like **Instagram**, **Netflix**, and **Spotify**.
+
+**Role in the project:**
+- Python runs on the **Raspberry Pi 5** and is responsible for:
+  - **Camera input handling**
+  - **Color and object detection**
+  - **Sending motion commands** to the Arduino Uno based on visual analysis
+
+This separation of roles allows for modular and efficient robot behavior, combining real-time sensor feedback with high-level decision making.
+
 
 
