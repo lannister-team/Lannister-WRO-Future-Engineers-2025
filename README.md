@@ -1,3 +1,16 @@
+<h1 align="center"><strong>Lannister Team</strong></h1>
+
+<p align="center"><strong>WRO 2025 Local Final: Future Engineers</strong></p>
+
+<p align="center">
+  <img src="media/team_logo.jpg" alt="Lannister Team Logo" width="300"/>
+</p>
+
+<p align="center">
+  This is the official repository of <strong>Team Lannister</strong> for the international final of the <strong>WRO2025</strong> season.
+</p>
+
+
 # Engineering Materials Repository
 
 This repository contains all materials related to our engineering vehicle project for the competition. The content is organized into several folders as described below.
