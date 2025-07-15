@@ -52,7 +52,7 @@ This section explains the **hardware wiring** and introduces the main **componen
 - **Purpose:** Drives the car forward or backward.
 - **Placement:** Rear wheels
 - **Algorithm:** One DC motor is connected to a differential to move both wheels.  
-  ➤ Read more: [Differential](./differential.md)
+  ➤ Read more: [Differential](../models/differential.md)
 - **Communication:** Via L298N H-Bridge
 - **Powered by:** L298N H-Bridge
 
@@ -81,7 +81,7 @@ This section explains the **hardware wiring** and introduces the main **componen
 - **Purpose:** Acts as the steering mechanism for the front wheels.
 - **Why:** Provides realistic steering behavior (Ackermann steering geometry).
 - **Algorithm:** The servo is connected to a linkage that controls the Ackermann steering system.  
-  ➤ Read more: [Ackermann Steering System](./ackermann.md)
+  ➤ Read more: [Ackermann Steering System](../models/ackermann_ss.md)
 - **Communication:** Controlled by Arduino pins
 - **Powered by:** Arduino 5V
 
