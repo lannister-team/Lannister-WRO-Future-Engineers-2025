@@ -6,7 +6,7 @@ This repository contains all materials related to our engineering vehicle projec
 
 ## 📁 Folder Structure
 
-### `t-photos/`
+### `t-photos`
 - Contains **2 team photos**:
   - An **official team photo**.
   - A **funny photo** with all team members.
@@ -15,35 +15,36 @@ This repository contains all materials related to our engineering vehicle projec
 - Contains **6 photos of the vehicle**:
   - Captured from **every side**, as well as from the **top and bottom**.
 
-### `video/`
+### `video`
 - Contains a `video.md` file with a **link to a demonstration video** showing the vehicle in action.
 
-### `schemes/`
+### `schemes`
 - Contains **schematic diagrams** in **JPEG**, **PNG**, or **PDF** format.
 - Illustrates all **electromechanical components** used in the vehicle:
   - Electronic components
   - Motors
   - Wiring and connections between them
 
-### `src/`
+### `src`
 - Contains the **source code** for the control software.
 - Includes all components programmed to participate in the competition.
 
-### `models/` *(optional)*
+### `models` *(optional)*
 - Contains 3D model files used in:
   - **3D printing**
   - **Laser cutting**
   - **CNC machining**
 - This folder can be removed if no such files are available.
 
-### `media/` *(optional)*
-- Contains **additional documentation and files** that may help in preparing the vehicle:
-  - How to connect to an SBC/SBM
-  - File upload instructions
+### `media`
+- Contains **images and diagrams** used throughout the documentation, including:
+  - Photos of hardware components (motors, sensors, controllers, etc.)
+  - System wiring diagrams or mechanical schematics
+  - Illustrations for the README and other documentation
+- May also include other helpful files such as:
   - Datasets
-  - Hardware specifications
-  - Communication protocol descriptions
-- This folder can be removed if not applicable.
+  - Connection instructions to SBC/SBM
+  - Hardware specifications and communication protocols
 
 ---
 
