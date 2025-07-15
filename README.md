@@ -197,7 +197,7 @@ Key features:
 - The Arduino IDE is used to program the **Arduino Uno**, which directly controls:
   - Rear-wheel drive motion
   - Steering through the servo motor
-- These actions are performed based on movement commands received from the Raspberry Pi (e.g., left/right turns or forward/backward motion).
+- These actions are performed based on movement commands received from the Raspberry Pi Camera (e.g., left/right turns or forward/backward motion).
 
 ---
 
