@@ -86,10 +86,14 @@ This section outlines the main hardware components integrated into the robot, in
 
 ---
 
+
 #### 🧠 Microcontrollers and Computing Units
 
-- **Arduino Uno + Custom Shield**  
-  The Arduino Uno is used as the main microcontroller for low-level control tasks such as motor actuation and sensor readings. It is paired with a custom shield that facilitates connections with the motor driver, sensors, and power distribution. The shield also includes pins for voltage regulation and communication lines.
+### Arduino Uno
+
+The Arduino Uno serves as the main microcontroller responsible for low-level control tasks such as motor actuation and sensor data acquisition. It interfaces directly with the motor driver, sensors, and power supply through individual wiring and connections without the use of a custom shield.
+
+Connections are managed via standard Arduino input/output pins, with careful wiring to ensure stable power distribution and reliable communication with all peripheral components.
 
 - **Raspberry Pi 5 (Model B)**  
   The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such as path planning, camera data processing, and advanced control logic. Model B features a quad-core ARM Cortex-A76 processor running at 2.4GHz, up to 8GB RAM, dual 4K display output, USB 3.0 support, Gigabit Ethernet, built-in Wi-Fi and Bluetooth 5.0.
