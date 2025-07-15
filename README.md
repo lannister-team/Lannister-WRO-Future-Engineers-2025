@@ -42,12 +42,14 @@ This repository contains all materials related to our engineering vehicle projec
 - Contains the **source code** for the control software.
 - Includes all components programmed to participate in the competition.
 
-### `models` *(optional)*
-- Contains 3D model files used in:
-  - **3D printing**
-  - **Laser cutting**
-  - **CNC machining**
-- This folder can be removed if no such files are available.
+### `models`
+
+- Contains **illustrative diagrams and conceptual models** related to the mechanical design of the robot, including:
+  - *Ackermann Steering System in Our WRO 2025 Car*
+  - *Differential Gear System in Our WRO 2025 Car*
+- These models are used for documentation and explanation purposes only, and do not include 3D-printable or CNC-ready files.
+- This folder helps visualize how steering and torque distribution are mechanically implemented in the vehicle.
+
 
 ### `media`
 - Contains **images and diagrams** used throughout the documentation, including:
