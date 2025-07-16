@@ -158,6 +158,10 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
   - Can control up to 2 DC motors (direction + speed), but two in out car
   - Compatible with TTL logic levels (from Arduino UNO)
 
+<p align="center">
+  <img src="media/L298N_Dual_H_Bridge.jpg" alt="L298N Motor Driver" width="40%">
+</p>
+
 ---
 
 #### 📏 Distance and Motion Sensing
@@ -170,6 +174,10 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
   
   These sensors are not affected by sunlight or dark materials, but may struggle with acoustically soft surfaces (e.g., cloth or wool).
 
+<p align="center">
+  <img src="media/Ultrasonic_Sensors.png" alt="Ultrasonic Sensors" width="40%">
+</p>
+
 - **IMU Sensor (Inertial Measurement Unit)**  
   The robot includes an IMU sensor (e.g., MPU6050 or similar) that provides motion data through **gyroscope and accelerometer readings**. This allows:
   - Orientation tracking
@@ -177,6 +185,10 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
   - Smoother navigation control (especially in turns or uneven motion)
 
   The IMU is connected via I2C to the Arduino, which processes raw motion data or forwards it to the Raspberry Pi for sensor fusion and decision making.
+
+<p align="center">
+  <img src="media/Imu_Sensor.jpg" alt="IMU Sensor" width="40%">
+</p>
 
 ---
 
