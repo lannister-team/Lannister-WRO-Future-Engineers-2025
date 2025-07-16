@@ -127,7 +127,7 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
   The robot is equipped with the official Raspberry Pi Camera Module, providing real-time video input for image-based navigation or line-following tasks. The camera is directly connected to the Pi via the CSI interface for low-latency image capture.
 
 <p align="center">
-  <img src="media/Raspberry_Pi_Camera.png" alt="Raspberry Pi Camera Module" width="40%">
+  <img src="media/Raspberry_Pi_Camera.jpg" alt="Raspberry Pi Camera Module" width="40%">
 </p>
 
 
