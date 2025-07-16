@@ -17,7 +17,7 @@ This repository contains all materials related to our engineering vehicle projec
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ### `t-photos`
 - Contains **2 team photos**:
@@ -63,7 +63,7 @@ This repository contains all materials related to our engineering vehicle projec
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This structure ensures clear organization and ease of navigation for anyone working on, reviewing, or evaluating the engineering project.
 
@@ -77,7 +77,7 @@ Hello, Team Lannister here, let's go a deeper into how this seasons robot is mad
 | **Servo Motor** <br><br>• Weight: 12g  <br>• Dimensions: 23 x 11.5 x 24 mm  <br>• Stall torque: 1.6 kgf·cm at 4.8V <br>• Speed: 0.12s/60° at 4.8V (no load) <br>• Stall torque: 2.0 kgf·cm at 6.0V <br>• Speed: 0.10s/60° at 6.0V (no load) <br>• Rotational range: 180° <br>• Pulse cycle: ~20ms <br>• Pulse width: 500–2400 µs | **DC 12V Encoder Gearmotor** <br><br>• Up to 200 RPM <br>• Stall torque (extrapolated): 21 kgf·cm <br>• 50:1 integrated gearbox <br>• No load current: 0.2A at 12V <br>• Stall current: 5.5A at 12V |
 
 
-### ⚙️ Motor Integration and Drive System
+###  Motor Integration and Drive System
 
 To ensure proper implementation of the DC 12V encoder gear motor and the servo motor, both a motor driver and a mechanical differential were selected as essential components of the drive system.
 
@@ -91,7 +91,7 @@ The integrated gear reduction system in the motor provides several advantages:
 
 This combination of components enables smooth, responsive, and reliable mobility suitable for both fine control and sustained movement under varying load conditions.
 
-#### 📸 Drive System Overview
+####  Drive System Overview
 
 <p align="center">
   <img src="media/differntil_animation.gif" alt="Mechanical Differential" width="45%">
@@ -99,11 +99,11 @@ This combination of components enables smooth, responsive, and reliable mobility
 
 ---
 
-### 🛞 Ackermann Steering System
+###  Ackermann Steering System
 
 To achieve realistic turning behavior and reduce tire slip during sharp turns, the robot implements an **Ackermann steering mechanism**. This system is commonly used in cars and robotics for accurate cornering.
 
-#### 🔍 How it works:
+####  How it works:
 
 When a vehicle turns, the inner front wheel must rotate at a **sharper angle** than the outer wheel. Ackermann steering geometry ensures this by linking the steering arms to pivot at a calculated angle, allowing the two front wheels to point towards the center of a turning circle.
 
@@ -121,14 +121,14 @@ This offers the following benefits:
 ---
 
 
-### 🔌 System Elements Overview
+###  System Elements Overview
 
 This section outlines the main hardware components integrated into the robot, including control units, sensors, power elements, and motor drivers.
 
 ---
 
 
-#### 🧠 Microcontrollers and Computing Units
+####  Microcontrollers and Computing Units
 
 ### Arduino Uno
 
@@ -147,7 +147,7 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 
 ---
 
-#### 📷 Vision System
+####  Vision System
 
 - **Raspberry Pi Camera Module**  
   The robot is equipped with the official Raspberry Pi Camera Module, providing real-time video input for image-based navigation or line-following tasks. The camera is directly connected to the Pi via the CSI interface for low-latency image capture.
@@ -159,7 +159,7 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 
 ---
 
-#### ⚙️ Motors and Actuation
+####  Motors and Actuation
 
 - **Motors Configuration**  
   The robot includes:
@@ -173,7 +173,7 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 
 ---
 
-#### 🔄 Motor Driver
+####  Motor Driver
 
 - **L298N Dual H-Bridge Motor Driver**  
   The L298N module is used to control the DC and servo motors. It consists of:
@@ -190,7 +190,7 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 
 ---
 
-#### 📏 Distance and Motion Sensing
+####  Distance and Motion Sensing
 
 - **HC-SR04 Ultrasonic Sensors**  
   The robot uses **3 ultrasonic sensors** placed at the front, left, and right to detect obstacles and measure distances. Each sensor operates as follows:
@@ -218,7 +218,7 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 
 ---
 
-#### 🔋 Power Supply
+####  Power Supply
 
 - **Power bank**
   The power bank will be our main source for keeping the Raspberry PI charged, which will also give the arduino its charge
@@ -226,14 +226,14 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 - **12V Battery Supply**  
   The robot is powered using a **12V battery**, to enable the motor to receive power through the L298N driver module.
 
-### 💻 Coding Environments
+###  Coding Environments
 
 The robot's software is developed using two main programming environments: **Arduino IDE (C++)** and **Python**. Each environment is responsible for different layers of control, from low-level motor actuation to high-level vision processing.
 
 ---
 
 
-#### 🔧 Arduino IDE (C++)
+####  Arduino IDE (C++)
 
 The **Arduino Integrated Development Environment (IDE)** is a cross-platform application (available for Windows, macOS, and Linux) used to program Arduino-compatible boards. Written in Java, the IDE supports both C and C++ languages with simplified structure requirements.
 
@@ -250,7 +250,7 @@ Key features:
 
 ---
 
-#### 🐍 Python
+####  Python
 
 **Python** is a high-level, interpreted programming language known for its readability and flexibility.
 
