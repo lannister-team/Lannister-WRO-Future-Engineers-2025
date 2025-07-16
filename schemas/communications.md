@@ -1,7 +1,5 @@
 ## Communication Summary Table
 
-## Communication Summary Table
-
 A table for all communications protocol summary
 
 | Component               | Connected To       | Communication Type / Protocol |
