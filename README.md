@@ -94,7 +94,7 @@ This combination of components enables smooth, responsive, and reliable mobility
 #### 📸 Drive System Overview
 
 <p align="center">
-  <img src="media/mechanical_differential.jpg" alt="Mechanical Differential" width="45%">
+  <img src="media/differntil_animation.gif" alt="Mechanical Differential" width="45%">
 </p>
 
 ---
