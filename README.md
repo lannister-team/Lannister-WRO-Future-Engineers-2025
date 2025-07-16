@@ -79,20 +79,46 @@ Hello, Team Lannister here, let's go a deeper into how this seasons robot is mad
 
 ### ⚙️ Motor Integration and Drive System
 
-To ensure proper implementation of the **DC 12V encoder gear motor** and the **servo motor**, both a **motor driver** and a **mechanical differential** were selected as essential components of the drive system.
+To ensure proper implementation of the DC 12V encoder gear motor and the servo motor, both a motor driver and a mechanical differential were selected as essential components of the drive system.
 
-The encoder gear motor is responsible for powering the mechanical differential, which then distributes motion evenly to the rear wheels. This configuration was chosen due to the torque multiplication offered by the differential — a key factor for achieving **precise maneuverability** within constrained environments, such as a competition playing field.
+The encoder gear motor is responsible for powering the mechanical differential, which then distributes motion evenly to the rear wheels. This configuration was chosen due to the torque multiplication offered by the differential — a key factor for achieving precise maneuverability within constrained environments, such as a competition playing field.
 
-The integrated **gear reduction system** in the motor provides several advantages:
-- Simplified mechanical design
-- Enhanced power and torque output
-- High durability due to the **sealed and enclosed housing**
+The integrated gear reduction system in the motor provides several advantages:
+
+- Simplified mechanical design  
+- Enhanced power and torque output  
+- High durability due to the sealed and enclosed housing  
 
 This combination of components enables smooth, responsive, and reliable mobility suitable for both fine control and sustained movement under varying load conditions.
 
 #### 📸 Drive System Overview
-![Drive System Diagram](media/differntil_animation.gif)
 
+<p align="center">
+  <img src="media/mechanical_differential.jpg" alt="Mechanical Differential" width="45%">
+</p>
+
+---
+
+### 🛞 Ackermann Steering System
+
+To achieve realistic turning behavior and reduce tire slip during sharp turns, the robot implements an **Ackermann steering mechanism**. This system is commonly used in cars and robotics for accurate cornering.
+
+#### 🔍 How it works:
+
+When a vehicle turns, the inner front wheel must rotate at a **sharper angle** than the outer wheel. Ackermann steering geometry ensures this by linking the steering arms to pivot at a calculated angle, allowing the two front wheels to point towards the center of a turning circle.
+
+This offers the following benefits:
+
+- Reduced tire wear during turns  
+- Improved energy efficiency  
+- More accurate and realistic path-following behavior  
+- Ideal for tight indoor environments like robotic competitions
+
+<p align="center">
+  <img src="media/Ackermann_photo.svg" alt="Ackermann Steering Diagram" width="55%">
+</p>
+
+---
 
 
 ### 🔌 System Elements Overview
