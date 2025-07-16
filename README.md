@@ -110,7 +110,7 @@ The Arduino Uno serves as the main microcontroller responsible for low-level con
 
 Connections are managed via standard Arduino input/output pins, with careful wiring to ensure stable power distribution and reliable communication with all peripheral components.
 
-- **Raspberry Pi 5 (Model B)**  
+### Raspberry Pi 5 (Model B) 
   The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such as path planning, camera data processing, and advanced control logic. Model B features a quad-core ARM Cortex-A76 processor running at 2.4GHz, up to 8GB RAM, dual 4K display output, USB 3.0 support, Gigabit Ethernet, built-in Wi-Fi and Bluetooth 5.0.
 
 ---
