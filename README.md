@@ -141,12 +141,11 @@ Connections are managed via standard Arduino input/output pins, with careful wir
 - **L298N Dual H-Bridge Motor Driver**  
   The L298N module is used to control the DC and servo motors. It consists of:
   - An L298 integrated motor driver IC
-  - A 78M05 5V regulator (can be disabled via jumper)
+  - A 78M05 5V regulator
   
   Features:
-  - Can control up to 2 DC motors (direction + speed)
-  - Can support 4 motors with simple on/off logic
-  - Compatible with TTL logic levels (from Arduino or Pi)
+  - Can control up to 2 DC motors (direction + speed), but two in out car
+  - Compatible with TTL logic levels (from Arduino UNO)
 
 ---
 
@@ -172,12 +171,11 @@ Connections are managed via standard Arduino input/output pins, with careful wir
 
 #### 🔋 Power Supply
 
-- **9V Battery Supply**  
-  The robot is powered using a **9V battery**, which is connected through the custom Arduino shield to distribute power appropriately:
-  - Motors receive power through the L298N driver module.
-  - Logic-level devices (Arduino, sensors) receive regulated 5V from the onboard voltage regulators.
-  
-  Separation of motor and logic power ensures **stable performance**, reduces noise, and protects against voltage dips during motor stall.
+- **Power bank**
+  The power bank will be our main source for keeping the Raspberry PI charged, which will also give the arduino its charge
+
+- **12V Battery Supply**  
+  The robot is powered using a **12V battery**, to enable the motor to receive power through the L298N driver module.
 
 ### 💻 Coding Environments
 
@@ -205,7 +203,7 @@ Key features:
 
 #### 🐍 Python
 
-**Python** is a high-level, interpreted programming language known for its readability and flexibility. It supports multiple programming paradigms (object-oriented, imperative, and limited functional) and is widely used in modern applications like **Instagram**, **Netflix**, and **Spotify**.
+**Python** is a high-level, interpreted programming language known for its readability and flexibility.
 
 **Role in the project:**
 - Python runs on the **Raspberry Pi 5** and is responsible for:
@@ -213,7 +211,8 @@ Key features:
   - **Color and object detection**
   - **Sending motion commands** to the Arduino Uno based on visual analysis
 
-This separation of roles allows for modular and efficient robot behavior, combining real-time sensor feedback with high-level decision making.
+**Libraries**
+- OpenCV library will be used to detecet colors (RED, GREEN).
 
 
 
