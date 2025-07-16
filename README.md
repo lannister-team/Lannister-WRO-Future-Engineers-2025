@@ -63,14 +63,14 @@ This repository contains all materials related to our engineering vehicle projec
 
 ---
 
-##  Purpose
+##  Car Components
 
 This structure ensures clear organization and ease of navigation for anyone working on, reviewing, or evaluating the engineering project.
 
 Introduction
 Hello, Team Lannister here, let's go a deeper into how this seasons robot is made up !!
 
-### 🚗 Mobility Management Components
+### Mobility Management Components
 
 | ![Servomotor](media/Servo_Motor.jpg) | ![Encoder Gearmotor](media/Encoder_Gearmotor.jpg) |
 |:----------------------------------:|:-------------------------------------------------:|
