@@ -68,7 +68,7 @@ This section explains the **hardware wiring** and introduces the main **componen
   - Amplifies the current required for the motor
 - **Placement:** Centered near the motor
 - **Communication:** Controlled by Arduino pins
-- **Powered by:** 12V battery
+- **Powered by:** 3x (3.7 Li-Ion) battery
 
 ### MPU6050 (IMU)
 
