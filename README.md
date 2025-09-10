@@ -226,8 +226,8 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 - **Power bank**
   The power bank will be our main source for keeping the Raspberry PI charged, which will also give the arduino its charge
 
-- **3x - 3.7 Li-Ion**  
-  The robot is powered using a **3x - 3.7 Li-Ion** -- 4.2 Max ~= 12.6v on max , to enable the motor to receive power through the L298N driver module.
+- **3x - 3.7 Li-Po**  
+  The robot is powered using a **3x - 3.7 Li-** Po-- 4.2 Max ~= 12.6v on max , to enable the motor to receive power through the L298N driver module.
 
 ###  Coding Environments
 
@@ -265,3 +265,4 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
