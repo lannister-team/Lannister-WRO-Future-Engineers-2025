@@ -72,9 +72,10 @@ Hello, Team Lannister here, let's go a deeper into how this seasons robot is mad
 
 ### Mobility Management Components
 
-| ![MG996R Servo](https://www.pixelelectric.com/wp-content/uploads/2022/07/MG996R.jpg) | ![JGB37-520 Encoder Gearmotor](https://precisionminidrives.com/wp-content/uploads/2020/05/NFP-JGB37-520-EN-12V-530RPM.jpg) |
+| ![MG996R Servo](media/Servo_Motor.jpg) | ![JGB37-520 Encoder Gearmotor](media/JGB37_DC_MOTOR.jpg) |
 |:----------------------------------:|:-------------------------------------------------:|
 | **MG996R Servo Motor** <br><br>• Weight: ~55g  <br>• Dimensions: 40.7 × 19.7 × 42.9 mm  <br>• Stall torque: 9.4 kgf·cm at 4.8V <br>• Stall torque: 11 kgf·cm at 6.0V <br>• Speed: 0.20s/60° at 4.8V (no load) <br>• Speed: 0.16s/60° at 6.0V (no load) <br>• Rotational range: 180° <br>• Pulse width: 500–2500 µs | **JGB37-520 Encoder Gearmotor (12V, 530 RPM, 18.8:1)** <br><br>• Rated voltage: 12V <br>• Speed: up to 530 RPM (no load) <br>• Gear ratio: 18.8:1 <br>• Shaft diameter: 6 mm <br>• Motor diameter: 37 mm <br>• Encoder resolution: 11 pulses per revolution <br>• No load current: ~120mA <br>• Stall current: ~2.8A <br>• Stall torque: ~3.2 kgf·cm |
+
 
 
 
@@ -266,5 +267,6 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
 
 
