@@ -149,7 +149,7 @@ The shield allowed us to:
 - Provide an easier way to connect sensors, motors, and the power supply without soldering.  
 
 <p align="center">
-  <img src="media/arduino_shield.jpg" alt="Arduino Shield" width="45%">
+  <img src="media/Arduino_Shield.jpg" alt="Arduino Shield" width="45%">
 </p>
 
 
@@ -278,6 +278,7 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
 
 
 
