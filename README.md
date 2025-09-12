@@ -72,9 +72,10 @@ Hello, Team Lannister here, let's go a deeper into how this seasons robot is mad
 
 ### Mobility Management Components
 
-| ![Servomotor](media/Servo_Motor.jpg) | ![Encoder Gearmotor](media/Encoder_Gearmotor.jpg) |
+| ![MG996R Servo](https://www.pixelelectric.com/wp-content/uploads/2022/07/MG996R.jpg) | ![JGB37-520 Encoder Gearmotor](https://precisionminidrives.com/wp-content/uploads/2020/05/NFP-JGB37-520-EN-12V-530RPM.jpg) |
 |:----------------------------------:|:-------------------------------------------------:|
-| **Servo Motor** <br><br>• Weight: 12g  <br>• Dimensions: 23 x 11.5 x 24 mm  <br>• Stall torque: 1.6 kgf·cm at 4.8V <br>• Speed: 0.12s/60° at 4.8V (no load) <br>• Stall torque: 2.0 kgf·cm at 6.0V <br>• Speed: 0.10s/60° at 6.0V (no load) <br>• Rotational range: 180° <br>• Pulse cycle: ~20ms <br>• Pulse width: 500–2400 µs | **DC 12V Encoder Gearmotor** <br><br>• Up to 200 RPM <br>• Stall torque (extrapolated): 21 kgf·cm <br>• 50:1 integrated gearbox <br>• No load current: 0.2A at 12V <br>• Stall current: 5.5A at 12V |
+| **MG996R Servo Motor** <br><br>• Weight: ~55g  <br>• Dimensions: 40.7 × 19.7 × 42.9 mm  <br>• Stall torque: 9.4 kgf·cm at 4.8V <br>• Stall torque: 11 kgf·cm at 6.0V <br>• Speed: 0.20s/60° at 4.8V (no load) <br>• Speed: 0.16s/60° at 6.0V (no load) <br>• Rotational range: 180° <br>• Pulse width: 500–2500 µs | **JGB37-520 Encoder Gearmotor (12V, 530 RPM, 18.8:1)** <br><br>• Rated voltage: 12V <br>• Speed: up to 530 RPM (no load) <br>• Gear ratio: 18.8:1 <br>• Shaft diameter: 6 mm <br>• Motor diameter: 37 mm <br>• Encoder resolution: 11 pulses per revolution <br>• No load current: ~120mA <br>• Stall current: ~2.8A <br>• Stall torque: ~3.2 kgf·cm |
+
 
 
 ###  Motor Integration and Drive System
@@ -265,4 +266,5 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
 
