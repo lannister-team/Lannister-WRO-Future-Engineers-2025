@@ -10,6 +10,37 @@
   This is the official repository of <strong>Team Lannister</strong> for the international final of the <strong>WRO2025</strong> season.
 </p>
 
+## Table of Contents
+
+- [Engineering Materials Repository](#engineering-materials-repository)
+  - [Folder Structure](#-folder-structure)
+    - [t-photos](#t-photos)
+    - [v-photos](#v-photos)
+    - [video](#video)
+    - [schemes](#schemes)
+    - [src](#src)
+    - [models](#models)
+    - [media](#media)
+  - [Car Components](#-car-components)
+    - [Introduction](#introduction)
+    - [Mobility Management Components](#mobility-management-components)
+    - [Motor Integration and Drive System](#-motor-integration-and-drive-system)
+      - [Drive System Overview](#--drive-system-overview)
+    - [Ackermann Steering System](#-ackermann-steering-system)
+      - [How it works](#--how-it-works)
+    - [System Elements Overview](#-system-elements-overview)
+      - [Microcontrollers and Computing Units](#-microcontrollers-and-computing-units)
+        - [Arduino Uno](#arduino-uno)
+        - [Raspberry Pi 5 (Model B)](#raspberry-pi-5-model-b)
+      - [Vision System](#-vision-system)
+      - [Motors and Actuation](#-motors-and-actuation)
+      - [Motor Driver](#-motor-driver)
+      - [Distance and Motion Sensing](#-distance-and-motion-sensing)
+      - [Power Supply](#-power-supply)
+    - [Coding Environments](#-coding-environments)
+      - [Arduino IDE (C++)](#-arduino-ide-c)
+      - [Python](#-python)
+
 
 # Engineering Materials Repository
 
@@ -278,6 +309,7 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
 
 
 
