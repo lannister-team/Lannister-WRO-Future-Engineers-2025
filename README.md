@@ -142,6 +142,17 @@ Connections are managed via standard Arduino input/output pins, with careful wir
   <img src="media/arduino_animation.gif" alt="Arduino Uno" width="45%">
 </p>
 
+To simplify wiring and improve reliability, we also used an **Arduino Shield**.  
+The shield allowed us to:
+- Reduce the complexity of manual wiring.  
+- Ensure more stable connections between the Arduino and external modules.  
+- Provide an easier way to connect sensors, motors, and the power supply without soldering.  
+
+<p align="center">
+  <img src="media/arduino_shield.jpg" alt="Arduino Shield" width="45%">
+</p>
+
+
 ### Raspberry Pi 5 (Model B)
 
 The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such as path planning, camera data processing, and advanced control logic. Model B features a quad-core ARM Cortex-A76 processor running at 2.4GHz, up to 8GB RAM, dual 4K display output, USB 3.0 support, Gigabit Ethernet, built-in Wi-Fi and Bluetooth 5.0.
@@ -267,6 +278,7 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
 
 
 
