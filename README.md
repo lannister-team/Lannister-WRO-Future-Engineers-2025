@@ -10,6 +10,37 @@
   This is the official repository of <strong>Team Lannister</strong> for the international final of the <strong>WRO2025</strong> season.
 </p>
 
+## Table of Contents
+
+- [Engineering Materials Repository](#engineering-materials-repository)
+  - [Folder Structure](#-folder-structure)
+    - [t-photos](#t-photos)
+    - [v-photos](#v-photos)
+    - [video](#video)
+    - [schemes](#schemes)
+    - [src](#src)
+    - [models](#models)
+    - [media](#media)
+  - [Car Components](#-car-components)
+    - [Introduction](#introduction)
+    - [Mobility Management Components](#mobility-management-components)
+    - [Motor Integration and Drive System](#-motor-integration-and-drive-system)
+      - [Drive System Overview](#--drive-system-overview)
+    - [Ackermann Steering System](#-ackermann-steering-system)
+      - [How it works](#--how-it-works)
+    - [System Elements Overview](#-system-elements-overview)
+      - [Microcontrollers and Computing Units](#-microcontrollers-and-computing-units)
+        - [Arduino Uno](#arduino-uno)
+        - [Raspberry Pi 5 (Model B)](#raspberry-pi-5-model-b)
+      - [Vision System](#-vision-system)
+      - [Motors and Actuation](#-motors-and-actuation)
+      - [Motor Driver](#-motor-driver)
+      - [Distance and Motion Sensing](#-distance-and-motion-sensing)
+      - [Power Supply](#-power-supply)
+    - [Coding Environments](#-coding-environments)
+      - [Arduino IDE (C++)](#-arduino-ide-c)
+      - [Python](#-python)
+
 
 # Engineering Materials Repository
 
@@ -72,9 +103,11 @@ Hello, Team Lannister here, let's go a deeper into how this seasons robot is mad
 
 ### Mobility Management Components
 
-| ![Servomotor](media/Servo_Motor.jpg) | ![Encoder Gearmotor](media/Encoder_Gearmotor.jpg) |
+| ![MG996R Servo](media/Servo_Motor.jpg) | ![JGB37-520 Encoder Gearmotor](media/JGB37_DC_MOTOR.jpg) |
 |:----------------------------------:|:-------------------------------------------------:|
-| **Servo Motor** <br><br>• Weight: 12g  <br>• Dimensions: 23 x 11.5 x 24 mm  <br>• Stall torque: 1.6 kgf·cm at 4.8V <br>• Speed: 0.12s/60° at 4.8V (no load) <br>• Stall torque: 2.0 kgf·cm at 6.0V <br>• Speed: 0.10s/60° at 6.0V (no load) <br>• Rotational range: 180° <br>• Pulse cycle: ~20ms <br>• Pulse width: 500–2400 µs | **DC 12V Encoder Gearmotor** <br><br>• Up to 200 RPM <br>• Stall torque (extrapolated): 21 kgf·cm <br>• 50:1 integrated gearbox <br>• No load current: 0.2A at 12V <br>• Stall current: 5.5A at 12V |
+| **MG996R Servo Motor** <br><br>• Weight: ~55g  <br>• Dimensions: 40.7 × 19.7 × 42.9 mm  <br>• Stall torque: 9.4 kgf·cm at 4.8V <br>• Stall torque: 11 kgf·cm at 6.0V <br>• Speed: 0.20s/60° at 4.8V (no load) <br>• Speed: 0.16s/60° at 6.0V (no load) <br>• Rotational range: 180° <br>• Pulse width: 500–2500 µs | **JGB37-520 Encoder Gearmotor (12V, 530 RPM, 18.8:1)** <br><br>• Rated voltage: 12V <br>• Speed: up to 530 RPM (no load) <br>• Gear ratio: 18.8:1 <br>• Shaft diameter: 6 mm <br>• Motor diameter: 37 mm <br>• Encoder resolution: 11 pulses per revolution <br>• No load current: ~120mA <br>• Stall current: ~2.8A <br>• Stall torque: ~3.2 kgf·cm |
+
+
 
 
 ###  Motor Integration and Drive System
@@ -139,6 +172,17 @@ Connections are managed via standard Arduino input/output pins, with careful wir
 <p align="center">
   <img src="media/arduino_animation.gif" alt="Arduino Uno" width="45%">
 </p>
+
+To simplify wiring and improve reliability, we also used an **Arduino Shield**.  
+The shield allowed us to:
+- Reduce the complexity of manual wiring.  
+- Ensure more stable connections between the Arduino and external modules.  
+- Provide an easier way to connect sensors, motors, and the power supply without soldering.  
+
+<p align="center">
+  <img src="media/Arduino_Shield.jpg" alt="Arduino Shield" width="45%">
+</p>
+
 
 ### Raspberry Pi 5 (Model B)
 
@@ -226,8 +270,8 @@ The Raspberry Pi 5 serves as the high-level processing unit, handling tasks such
 - **Power bank**
   The power bank will be our main source for keeping the Raspberry PI charged, which will also give the arduino its charge
 
-- **3x - 3.7 Li-Ion**  
-  The robot is powered using a **3x - 3.7 Li-Ion** -- 4.2 Max ~= 12.6v on max , to enable the motor to receive power through the L298N driver module.
+- **3x - 3.7 Li-Po**  
+  The robot is powered using a **3x - 3.7 Li-** Po-- 4.2 Max ~= 12.6v on max , to enable the motor to receive power through the L298N driver module.
 
 ###  Coding Environments
 
@@ -265,3 +309,9 @@ Key features:
 
 **Libraries**
 - OpenCV library will be used to detecet colors (RED, GREEN).
+
+
+
+
+
+
