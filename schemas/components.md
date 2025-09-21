@@ -20,8 +20,9 @@ This section explains the **hardware wiring** and introduces the main **componen
 | 3x Ultrasonic Sensors  | Detects nearby obstacles (front, left, right)                            |
 | MPU6050 IMU            | Tracks orientation and Z-axis stability (via gyroscope/accelerometer)    |
 | Servo Motor            | Acts as steering by controlling the angle of the front wheels            |
-| 12V Battery            | External power source for motor driver and motor                         |
-| Breadboard             | Distributes power and ground to connected modules                        |
+| 3x 3.7Li-Ion Battery   | External power source for motor driver and motor                         |
+| Voltage Regulator      | Decrease the Voltage that enters the servo from the Li-Ion to be appropriate|
+
 
 ## 2. Components in Detail
 
@@ -83,6 +84,6 @@ This section explains the **hardware wiring** and introduces the main **componen
 - **Algorithm:** The servo is connected to a linkage that controls the Ackermann steering system.  
   ➤ Read more: [Ackermann Steering System](../models/ackermann_ss.md)
 - **Communication:** Controlled by Arduino pins
-- **Powered by:** Arduino 5V
+- **Powered by:** 2x (3.7 Li-Ion) batteries with 6V voltage regulator and a capcitor
 
 ---
