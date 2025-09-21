@@ -21,6 +21,5 @@ String get_object()
     return input;
   }
   
-  return "";  
-  
+  return "";   
 }

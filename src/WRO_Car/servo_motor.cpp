@@ -14,11 +14,41 @@ void servo_setup()
 {
   steeringServo.attach(SERVO_PIN); // pin 12
   steeringServo.write(CENTER_ANGLE); // start from the center
+  Serial.println("Enter a servo angle (0 - 180):");
+
 }
 
 void set_servo_angle(int angle)
 {
   steeringServo.write(angle); // write the given angle to the servo motor
+}
+
+void move_for_angle(int *angle, int next_angle, int speed)
+{
+  int current_angle = *angle;
+  set_speed(speed);
+  delay(TURNINNG_DELAY);
+
+  if (current_angle < next_angle)
+  {
+    for (int i = current_angle; i <= next_angle; i++)
+    {
+      set_servo_angle(i);
+      delay(SERVO_DELAY);
+    }
+  }
+
+  else if (current_angle > next_angle)
+  {
+    for (int i = current_angle; i >= next_angle; i--)
+    {
+      set_servo_angle(i);
+      delay(SERVO_DELAY);
+    }
+  }
+
+  *angle = next_angle;
+
 }
 
 void turn_right()

@@ -18,7 +18,9 @@ void motor_setup()
 {
   pinMode(motor_positive, OUTPUT);
   pinMode(motor_negative, OUTPUT);
-
+  pinMode(ENA, OUTPUT);
+  set_speed(255);
+  
   pinMode(encoderPinA, INPUT);
   pinMode(encoderPinB, INPUT);
 
@@ -28,8 +30,15 @@ void motor_setup()
 
 float get_distance()
 {
-  float revolutions = encoderCount / (float)pulsesPerRevolution; // revolutions = encoderCount / pulsesPerRevolution
-  return revolutions * (wheelDiameter * PI); // distance in mm , distance = revolutions * (wheelDiameter * PI)
+  //float revolutions = encoderCount / (float)pulsesPerRevolution; // revolutions = encoderCount / pulsesPerRevolution
+  //return revolutions * (wheelDiameter * PI); // distance in mm , distance = revolutions * (wheelDiameter * PI)
+   return encoderCount;
+
+}
+
+void set_speed(int speed)
+{
+  analogWrite(ENA, speed);
 }
 
 void move_back()

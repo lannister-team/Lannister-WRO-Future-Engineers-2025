@@ -14,7 +14,6 @@ Range	Reliability	Comment
 */
 
 
-
 #include "./ultrasonic.h"
 
 void ultrasonic_setup()
