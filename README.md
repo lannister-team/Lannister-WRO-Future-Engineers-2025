@@ -60,7 +60,7 @@ Here are some photos of our team.
 
 | Team Photo | Funny Team Photo |
 |------------|------------------|
-| ![Team Photo](t_photos/Team_Photo.jpg) | ![Funny Team Photo](t_photos/Team_Funny_Photo.jpg) |
+| ![Team Photo](t_photos/Team_Photo.jpeg) | ![Funny Team Photo](t_photos/Team_Funny_Photo.jpeg) |
 
 
 ### `v-photos`
@@ -369,6 +369,7 @@ Key features:
 #### 5. Controllers
 - **Arduino Uno:** Low-level control for motor, sensors, and actuators.  
 - **Raspberry Pi 5:** Vision processing with Pi Camera → sends movement commands via USB serial.
+
 
 
 
