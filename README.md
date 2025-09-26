@@ -73,11 +73,11 @@ All images are stored inside the `v_photos/` folder.
 
 | Top view | Front view | Back view |
 |----------|------------|-----------|
-| ![Top view](v_photos/Top.jpg) | ![Front view](v_photos/Front.jpg) | ![Back view](v_photos/Back.jpg) |
+| ![Top view](v_photos/TOP.jpg) | ![Front view](v_photos/Front.jpg) | ![Back view](v_photos/Back.jpg) |
 
 | Bottom view | Left view | Right view |
 |-------------|-----------|------------|
-| ![Bottom view](v_photos/Bottom.jpg) | ![Left view](v_photos/Left.jpg) | ![Right view](v_photos/Right.jpg) |
+| ![Bottom view](v_photos/Buttom.jpg) | ![Left view](v_photos/Left.jpg) | ![Right view](v_photos/Right.jpg) |
 
 
 ### `video`
@@ -369,6 +369,7 @@ Key features:
 #### 5. Controllers
 - **Arduino Uno:** Low-level control for motor, sensors, and actuators.  
 - **Raspberry Pi 5:** Vision processing with Pi Camera → sends movement commands via USB serial.
+
 
 
 
