@@ -321,7 +321,7 @@ Key features:
 - **Motor Power (12V rail):**  
   Three Li-ion cells (3.7 V each) in series (~11.1 V) power the **L298N H-Bridge**.  
 - **Logic Power (5V rail):**  
-  Another pack (2 × 3.7 V = ~7.4 V) regulated to **5V** powers the **Arduino Uno**, sensors, and servo.  
+  Another pack (2 × 3.7 V = ~7.4 V) regulated to **6V** powers the **Arduino Uno**, sensors, and servo.  
 - **All grounds are common** across Arduino, motor driver, sensors, and Raspberry Pi.
 
 #### 2. Motor & Driver (L298N H-Bridge)
@@ -341,13 +341,14 @@ Key features:
 
 #### 4. Actuators
 - **Steering Servo Motor:**  
-  Powered from regulated 5V, control pin → Arduino PWM.  
+  Powered from regulated 6V, control pin → Arduino PWM.  
 - **Relay Module:**  
   Controlled by Arduino digital pin for auxiliary switching.
 
 #### 5. Controllers
 - **Arduino Uno:** Low-level control for motor, sensors, and actuators.  
 - **Raspberry Pi 5:** Vision processing with Pi Camera → sends movement commands via USB serial.
+
 
 
 
