@@ -54,7 +54,14 @@ This repository contains all materials related to our engineering vehicle projec
 - Contains **2 team photos**:
   - An **official team photo**.
   - A **funny photo** with all team members.
-  
+  ## 👥 Team Photos
+
+Here are some photos of our team.
+
+| Team Photo | Funny Team Photo |
+|------------|------------------|
+| ![Team Photo](t_photos/Team_Photo.jpg) | ![Funny Team Photo](t_photos/Team_Funny_Photo.jpg) |
+
 
 ### `v-photos`
 - Contains **6 photos of the vehicle**:
@@ -362,6 +369,7 @@ Key features:
 #### 5. Controllers
 - **Arduino Uno:** Low-level control for motor, sensors, and actuators.  
 - **Raspberry Pi 5:** Vision processing with Pi Camera → sends movement commands via USB serial.
+
 
 
 
