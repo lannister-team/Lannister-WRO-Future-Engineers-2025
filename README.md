@@ -311,6 +311,44 @@ Key features:
 - OpenCV library will be used to detecet colors (RED, GREEN).
 
 
+## 🔌 Wiring Diagram
+
+![Wiring Diagram](./media/Wiring_Diagram.png)
+
+### Explanation
+
+#### 1. Power Distribution
+- **Motor Power (12V rail):**  
+  Three Li-ion cells (3.7 V each) in series (~11.1 V) power the **L298N H-Bridge**.  
+- **Logic Power (5V rail):**  
+  Another pack (2 × 3.7 V = ~7.4 V) regulated to **5V** powers the **Arduino Uno**, sensors, and servo.  
+- **All grounds are common** across Arduino, motor driver, sensors, and Raspberry Pi.
+
+#### 2. Motor & Driver (L298N H-Bridge)
+- **DC Gear Motor with Encoder** connected to OUT1/OUT2 of L298N.  
+- Encoder outputs → Arduino digital pins.  
+- IN1/IN2 → Arduino (motor direction).  
+- ENA → Arduino PWM (speed control).  
+- Powered from 3-cell battery pack.
+
+#### 3. Sensors
+- **Ultrasonic Sensors (x3 HC-SR04):**  
+  Each wired with VCC, GND, Trig, Echo → Arduino pins (front, left, right).  
+- **MPU6050 IMU:**  
+  I²C (SDA → A4, SCL → A5), VCC (5V), GND.  
+- **Raspberry Pi Camera:**  
+  Connected to Raspberry Pi 5 CSI port.
+
+#### 4. Actuators
+- **Steering Servo Motor:**  
+  Powered from regulated 5V, control pin → Arduino PWM.  
+- **Relay Module:**  
+  Controlled by Arduino digital pin for auxiliary switching.
+
+#### 5. Controllers
+- **Arduino Uno:** Low-level control for motor, sensors, and actuators.  
+- **Raspberry Pi 5:** Vision processing with Pi Camera → sends movement commands via USB serial.
+
 
 
 
