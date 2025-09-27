@@ -1,6 +1,6 @@
 # Track Algorithim
 this section for explaining the algorithim used in the Arduino files to win the track
-## 🚗 Navigation Algorithm
+##  Navigation Algorithm
 
 The car’s navigation system combines data from the **IMU**, **Ultrasonic Sensors**, and the **Camera** to make real-time driving decisions.  
 
@@ -40,7 +40,7 @@ The car’s navigation system combines data from the **IMU**, **Ultrasonic Senso
 
 ---
 
-### 🔑 Summary of Logic
+###  Summary of Logic
 1. Drive forward and keep straight using the **IMU**.  
 2. If the camera detects an obstacle:  
    - **Red → Turn Right** (if right side is clear).  
