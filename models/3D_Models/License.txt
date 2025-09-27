@@ -1,0 +1,1 @@
+Adapted from [Lee3D999, 2025], with some major edits in the main design
