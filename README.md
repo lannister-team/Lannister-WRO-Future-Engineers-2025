@@ -332,7 +332,7 @@ Key features:
 - OpenCV library will be used to detecet colors (RED, GREEN).
 
 
-## 🔌 Wiring Diagram
+##  Wiring Diagram
 
 ![Wiring Diagram](./media/Wiring_Diagram.png)
 
@@ -369,6 +369,7 @@ Key features:
 #### 5. Controllers
 - **Arduino Uno:** Low-level control for motor, sensors, and actuators.  
 - **Raspberry Pi 5:** Vision processing with Pi Camera → sends movement commands via USB serial.
+
 
 
 
